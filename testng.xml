@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Airline">
+  <test thread-count="5" name="Test_Smoke">
+    <classes>
+      <class name="airline.project2.TC_01"/>
+      <class name="airline.project2.TC_02"/>
+      <class name="airline.project2.TC_07"/>
+      <class name="airline.project2.TC_05"/>
+      <class name="airline.project2.TC_06"/>
+      <class name="airline.project2.TC_03"/>
+      <class name="airline.project2.TC_04"/>
+    </classes>
+  </test> <!-- Test_Smoke -->
+</suite> <!-- Suite_Airline -->
